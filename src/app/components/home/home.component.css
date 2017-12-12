@@ -1,0 +1,17 @@
+.blok1 {
+  height: 100%;
+  background-image: url("../../../assets/home.png");
+  background-position: center center;
+	background-size: cover; 
+	padding-top: 15%;
+	padding-bottom: 20%;
+}
+.title {
+	margin-bottom: 5%;
+}
+
+.text-background {
+	border-radius: 10px;
+	padding: 5%;
+	background-color: rgba(189, 179, 179, .6);
+}
