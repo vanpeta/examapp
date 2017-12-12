@@ -1,0 +1,11 @@
+<button type="button" class="btn btn-primary"><a routerLink="/">Home</a></button>
+<div *ngFor="let question of questions" class="row">
+  <div class="col-xs-12">
+    {{question.statement}}<br>
+     {{question.answer.answer}}<br>
+     {{getBadAnswers(question.answer.type)[0]}}<br>
+     {{getBadAnswers(question.answer.type)[1]}}<br>
+     {{getBadAnswers(question.answer.type)[2]}}<br>
+  </div>
+</div>
+<app-question-details></app-question-details>
